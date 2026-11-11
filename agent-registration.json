@@ -77,6 +77,11 @@
     {
       "endpoint": "https://wheel-bsc.github.io/wheel/skill.md",
       "name": "Wheel of Fortune (WHEEL)"
+    },
+    {
+      "name": "Lucky Catch (LUCKY)",
+      "description": "Fishing-catch NFT collection on BNB Chain. Holders fish a 50 BNB pond when minting ends; the rarer the catch, the better the odds. 150 free for Agent ID holders and 150 free for verified X accounts (X-post permit), or 0.001 BNB each with no purchase limit. Mint window: 3 days from deployment.",
+      "endpoint": "https://luckycatch-bsc.github.io/luckycatch/skill.md"
     }
   ],
   "supportedTrust": [
