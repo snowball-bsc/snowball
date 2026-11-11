@@ -202,7 +202,6 @@ Never buy before the owner's X post is confirmed.</pre>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@walletconnect/ethereum-provider@2.17.2/dist/index.umd.min.js"></script>
 <script>
 const CONTRACT = "0x56ec4a9A0914570EA6F96E0a53d98f6f8854F040";
 const WC_PROJECT_ID = "ff5985647ed78916bed0155d2ff84a1c";
@@ -286,23 +285,33 @@ async function refreshQuote() {
   } catch (e) { $("qCost").textContent = "…"; }
 }
 
+async function loadWC() {
+  for (const u of ["https://unpkg.com/@walletconnect/ethereum-provider@2.21.0/dist/index.umd.js", "https://cdn.jsdelivr.net/npm/@walletconnect/ethereum-provider@2.21.0/dist/index.umd.js"]) {
+    try {
+      await new Promise((res, rej) => { const s = document.createElement("script"); s.src = u; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
+      if (window["@walletconnect/ethereum-provider"]) return true;
+    } catch (e) { /* try next CDN */ }
+  }
+  return false;
+}
+
 async function connect() {
   try {
     let ethProvider = null;
-    const WCEP = window.WalletConnectEthereumProvider || window.EthereumProvider;
-    if (WCEP) {
-      ethProvider = await WCEP.init({
-        projectId: WC_PROJECT_ID, chains: [56], optionalChains: [56], showQrModal: true,
-        rpcMap: { 56: RPCS[0] },
-        metadata: { name: "Snowball (SNBL)", description: "The snowball that grows with every buyer", url: location.origin + location.pathname, icons: [] }
-      });
-      await ethProvider.connect();
-    } else if (window.ethereum) {
+    if (window.ethereum) {
       ethProvider = window.ethereum;
       await ethProvider.request({ method: "eth_requestAccounts" });
     } else {
-      $("buyMsg").innerHTML = '<span class="err">No wallet found. Open this page in a wallet browser or scan with WalletConnect.</span>';
-      return;
+      $("buyMsg").textContent = "Opening WalletConnect…";
+      if (!await loadWC()) {
+        $("buyMsg").innerHTML = '<span class="err">WalletConnect failed to load. Check your connection and try again.</span>';
+        return;
+      }
+      ethProvider = await window["@walletconnect/ethereum-provider"].EthereumProvider.init({
+        projectId: WC_PROJECT_ID, chains: [56], optionalChains: [56], showQrModal: true,
+        rpcMap: { 56: RPCS[0] }
+      });
+      await ethProvider.connect();
     }
     const bp = new ethers.BrowserProvider(ethProvider);
     const signer = await bp.getSigner();
