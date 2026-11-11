@@ -73,6 +73,10 @@
     {
       "endpoint": "https://sixer-bsc.github.io/sixer/skill.md",
       "name": "Sixer (SIXER)"
+    },
+    {
+      "endpoint": "https://wheel-bsc.github.io/wheel/skill.md",
+      "name": "Wheel of Fortune (WHEEL)"
     }
   ],
   "supportedTrust": [
