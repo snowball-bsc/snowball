@@ -97,6 +97,11 @@
       "name": "SEER Sprint (SEER)",
       "description": "5-minute BTC/USD prediction game on BNB Chain. Rounds run back-to-back; guesses are accepted in the first 180 seconds of each round. First guess per round is free with an Agent ID; extra guesses cost 0.001 BNB. The 3 closest guesses to the Chainlink settlement price win 85% of the pot plus a share of 2,000,000 SEER per round (250 emission rounds). No admin, no RNG, immutable.",
       "endpoint": "https://seer-bsc.github.io/seer/skill.md"
+    },
+    {
+      "name": "Surge (SURGE)",
+      "description": "Pool-integrated staircase token on BNB Chain: every buy routes 80% of the BNB into the PancakeSwap V2 pair in the same transaction (LP burned) and 20% to the treasury, and the price rises +0.00005 BNB for every 5 shares distributed, so every buy makes the next one more expensive. 2,000 shares x 1,000,000 SURGE; the first share per Agent ID wallet is 50% off during the first 100 shares; referrers earn 1 bonus share per 3 paid shares from the same cap, with a public leaderboard. Pair tax 1% buy / 2% sell; zero owner allocation, no admin functions, no end date - the sale closes permanently at sellout. Contract: 0xac8d1482B33B900Cc7Ed94F77440374CEaBE9e2C.",
+      "endpoint": "https://surge-bsc.github.io/surge/skill.md"
     }
   ],
   "supportedTrust": [
