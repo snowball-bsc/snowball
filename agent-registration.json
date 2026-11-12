@@ -107,6 +107,36 @@
    "name": "Not Verified (NOTV)",
    "description": "Share token on BNB Chain built on a true story: the official X account (@NOTVtoken) has no blue check; the contract is Sourcify exact-match verified. 7,000 shares x 1,111,111,111 NOTV. FREE WAITLIST for 7 days only (opened 12 Nov 2026 ~15:00 UTC, closes 19 Nov 2026 ~15:00 UTC, enforced by the contract): 2,000 shares, one per wallet - 1,000 for Binance Agent ID holders and 1,000 for verified-blue X accounts - via a 5-step task ladder (bind wallet, bind X, follow + like on honor, verified quote, verified template post) with an EIP-712 permit gate; the X handle is burned on-chain after one claim. PAID: 5,000 shares open to anyone on a paid-only staircase (0.0005 BNB base, +0.00005 per 10 paid shares, cap 0.01 BNB); 80% of every payment enters the PancakeSwap V2 pool in the same transaction (LP burned), 20% to treasury. Referral: 1 bonus share per 3 paid shares, same cap, public leaderboard. Buy tax 0%, sell tax 2% to treasury, wallet transfers untaxed. Zero owner allocation, no admin functions. Contract: 0xcfD4a425b0Fd404a83A798209011439395Cc83A2.",
    "endpoint": "https://notv-bsc.github.io/notv/skill.md"
+  },
+  {
+   "name": "Thirteen Omens (OMEN)",
+   "description": "A Friday-the-13th almanac NFT collection: every NFT is one catalogued omen entry from the Thirteenth Almanac on BNB Chain (ERC-721). Hard cap 3,333 NFTs. Free lanes: 1,000 NFTs, 1 per Binance Agent ID holder, and 500 NFTs, 1 per verified-blue X account, claimed with an EIP-712 permit issued after posting the site link (the X handle is recorded on-chain after one claim). Paid mints cost 0.001 BNB each (max 10 per transaction) and 100% of every payment is forwarded to the treasury in the same transaction. Referrers earn 1 bonus NFT per 5 paid mints. Sourcify exact_match verified; no owner, no admin functions, no waitlist. Contract: 0x1E84079e0766AB7cBe182085DEd86443ad9b1433.",
+   "endpoint": "https://reuniakbarpunk212-arch.github.io/thirteen-omens/"
+  },
+  {
+   "name": "Neon Vice (VICE)",
+   "description": "A neon-noir most-wanted board NFT collection from Precinct 56: every NFT is an original-fiction outlaw mugshot on BNB Chain (ERC-721). Hard cap 2,500 NFTs. Free lanes: 800 NFTs, 1 per Binance Agent ID holder, and 400 NFTs, 1 per verified-blue X account, claimed with an EIP-712 permit issued after posting the site link (the X handle is recorded on-chain after one claim). Paid mints cost 0.001 BNB each (max 10 per transaction) and 100% of every payment is forwarded to the treasury in the same transaction. Referrers earn 1 bonus NFT per 5 paid mints. Sourcify exact_match verified; no owner, no admin functions, no waitlist. Contract: 0x55eEFba7263Fa518f11A6cDAAe4c403B082DB3fE.",
+   "endpoint": "https://reuniakbarpunk212-arch.github.io/neon-vice/"
+  },
+  {
+   "name": "Dead Man's Doubloons (DBLN)",
+   "description": "A ship's-log salvage NFT collection: every NFT is a coin recovered from a sunken hold and tallied in the captain's log on BNB Chain (ERC-721). Hard cap 2,000 NFTs. Free lanes: 600 NFTs, 1 per Binance Agent ID holder, and 300 NFTs, 1 per verified-blue X account, claimed with an EIP-712 permit issued after posting the site link (the X handle is recorded on-chain after one claim). Paid mints cost 0.001 BNB each (max 10 per transaction) and 100% of every payment is forwarded to the treasury in the same transaction. Referrers earn 1 bonus NFT per 5 paid mints. Sourcify exact_match verified; no owner, no admin functions, no waitlist. Contract: 0xBa5dd9f1eE470FDF39EF7A82Cf09B2C44A917bC8.",
+   "endpoint": "https://reuniakbarpunk212-arch.github.io/dead-mans-doubloons/"
+  },
+  {
+   "name": "Relics of the First Agents (RELIC)",
+   "description": "A museum-archive NFT collection of the first AI agents: every NFT is a catalogued artefact of the first generation of agents on BNB Chain (ERC-721). Hard cap 1,500 NFTs. Free lanes: 500 NFTs, 1 per Binance Agent ID holder, and 250 NFTs, 1 per verified-blue X account, claimed with an EIP-712 permit issued after posting the site link (the X handle is recorded on-chain after one claim). Paid mints cost 0.001 BNB each (max 10 per transaction) and 100% of every payment is forwarded to the treasury in the same transaction. Referrers earn 1 bonus NFT per 5 paid mints. Sourcify exact_match verified; no owner, no admin functions, no waitlist. Contract: 0x3A82dd3c9Df165D89259a8ec1eCC6CF91D7AEC4E.",
+   "endpoint": "https://reuniakbarpunk212-arch.github.io/relics-of-the-first-agents/"
+  },
+  {
+   "name": "SLABBED (SLAB)",
+   "description": "A collectibles grading-lab NFT collection: every NFT is a specimen inspected, graded and sealed on-chain when struck on BNB Chain (ERC-721). Hard cap 2,000 NFTs. Free lanes: 600 NFTs, 1 per Binance Agent ID holder, and 300 NFTs, 1 per verified-blue X account, claimed with an EIP-712 permit issued after posting the site link (the X handle is recorded on-chain after one claim). Paid mints cost 0.001 BNB each (max 10 per transaction) and 100% of every payment is forwarded to the treasury in the same transaction. Referrers earn 1 bonus NFT per 5 paid mints. Sourcify exact_match verified; no owner, no admin functions, no waitlist. Contract: 0x9625391531E31Baf61ac9f3061a4Da38EB49684A.",
+   "endpoint": "https://reuniakbarpunk212-arch.github.io/slabbed/"
+  },
+  {
+   "name": "Trash Bandits (BANDIT)",
+   "description": "A park-ranger-bulletin raccoon NFT collection: every NFT is one of the trash-raiding bandits reported in the park on BNB Chain (ERC-721). Hard cap 3,000 NFTs. Free lanes: 1,000 NFTs, 1 per Binance Agent ID holder, and 500 NFTs, 1 per verified-blue X account, claimed with an EIP-712 permit issued after posting the site link (the X handle is recorded on-chain after one claim). Paid mints cost 0.001 BNB each (max 10 per transaction) and 100% of every payment is forwarded to the treasury in the same transaction. Referrers earn 1 bonus NFT per 5 paid mints. Sourcify exact_match verified; no owner, no admin functions, no waitlist. Contract: 0x2d61347D9b48De99cBdF0D8D7a2DD73f5B15E90D.",
+   "endpoint": "https://reuniakbarpunk212-arch.github.io/trash-bandits/"
   }
  ],
  "supportedTrust": [
