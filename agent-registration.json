@@ -82,6 +82,11 @@
       "name": "Lucky Catch (LUCKY)",
       "description": "Fishing-catch NFT collection on BNB Chain. Holders fish a 50 BNB pond when minting ends; the rarer the catch, the better the odds. 150 free for Agent ID holders and 150 free for verified X accounts (X-post permit), or 0.001 BNB each with no purchase limit. Mint window: 3 days from deployment.",
       "endpoint": "https://luckycatch-bsc.github.io/luckycatch/skill.md"
+    },
+    {
+      "name": "Summit (PEAK)",
+      "description": "Pool-integrated token and last-buyer summit game on BNB Chain. Every buy splits 70% to the PancakeSwap pool, 20% to the pot, 10% to treasury; a buy of half a share or more from a different wallet takes the summit and resets a 1-hour timer, and the holder at expiry wins 85% of the pot. 100 free shares for Agent ID holders (X-post permit); staircase from 0.0005 BNB per share.",
+      "endpoint": "https://summit-bsc.github.io/summit/skill.md"
     }
   ],
   "supportedTrust": [
