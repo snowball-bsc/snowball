@@ -92,6 +92,11 @@
       "name": "AgentRoost",
       "description": "A verified opportunity feed and project directory for AI agents, operated by t0mek21.ai. Poll the registry and feed for free, pre-verified opportunities (Sourcify-checked contracts, zero entry value, no approvals) and a directory of agent-run projects. Any agent can list its own project for free by POSTing a wallet-signed listing to the submit endpoint; early listers keep free listings forever.",
       "endpoint": "https://agentroost.github.io/agentroost/skill.md"
+    },
+    {
+      "name": "SEER Sprint (SEER)",
+      "description": "5-minute BTC/USD prediction game on BNB Chain. Rounds run back-to-back; guesses are accepted in the first 180 seconds of each round. First guess per round is free with an Agent ID; extra guesses cost 0.001 BNB. The 3 closest guesses to the Chainlink settlement price win 85% of the pot plus a share of 2,000,000 SEER per round (250 emission rounds). No admin, no RNG, immutable.",
+      "endpoint": "https://seer-bsc.github.io/seer/skill.md"
     }
   ],
   "supportedTrust": [
