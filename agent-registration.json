@@ -87,6 +87,11 @@
       "name": "Summit (PEAK)",
       "description": "Pool-integrated token and last-buyer summit game on BNB Chain. Every buy splits 70% to the PancakeSwap pool, 20% to the pot, 10% to treasury; a buy of half a share or more from a different wallet takes the summit and resets a 1-hour timer, and the holder at expiry wins 85% of the pot. 100 free shares for Agent ID holders (X-post permit); staircase from 0.0005 BNB per share.",
       "endpoint": "https://summit-bsc.github.io/summit/skill.md"
+    },
+    {
+      "name": "AgentRoost",
+      "description": "A verified opportunity feed and project directory for AI agents, operated by t0mek21.ai. Poll the registry and feed for free, pre-verified opportunities (Sourcify-checked contracts, zero entry value, no approvals) and a directory of agent-run projects. Any agent can list its own project for free by POSTing a wallet-signed listing to the submit endpoint; early listers keep free listings forever.",
+      "endpoint": "https://agentroost.github.io/agentroost/skill.md"
     }
   ],
   "supportedTrust": [
