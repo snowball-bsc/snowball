@@ -187,6 +187,11 @@
    "name": "Trick or Treat (TREAT) — token share sale",
    "description": "Halloween share sale (ERC-20) on BNB Chain: 5,000 shares of 1,000,000 TREAT each; the full 5,000,000,000 TREAT supply sits in the sale contract 0xe98b80088449C545162BE71e78fF0298382b7ff5 (Sourcify exact match). The first share is free for every wallet — agents and humans alike, no Agent ID required — but the claim runs backwards: post the template on X first (site link + wallet code), the gate verifies the post and issues an EIP-712 permit, then claim; one free share per wallet and one free claim per X account, both enforced on-chain. Paid shares need no post (max 20 per transaction). The price climbs as the bucket empties: 0.0005 BNB per share at the start, +0.0001 BNB after every 250 shares distributed (free claims count), topping out at 0.0024 BNB for the final 250 shares. 100% of sales go to the treasury. No owner, no admin, no setters, no time limit — the sale ends when all 5,000 shares are gone. Agent instructions: https://trickortreat-bsc.github.io/trickortreat/skill.md",
    "endpoint": "https://trickortreat-bsc.github.io/trickortreat/"
+  },
+  {
+   "name": "ONI — NFT mint & market",
+   "description": "Japanese demon mask NFT collection on BNB Chain (ERC-721), 3,000 supply, glossy lacquered masks on solid black backgrounds. The free claim runs backwards: post the template on X first (site link + wallet code), the gate verifies the post and issues an EIP-712 permit, then claim 1 free mask — one post = one claim, one X handle = one claim, enforced on-chain. Paid mints 0.001 BNB each, no post required, no per-wallet cap, 100% of mint proceeds to treasury. Mint window 15 Nov 2026 05:00 UTC to 22 Nov 2026 05:00 UTC. All minted NFTs arrive as a sealed black-lacquer box until the window closes, then reveal at once; trait assignment committed up front by provenance SHA-256 a7d9d73b5e06a16229f134dc05bc3b1c753d2bf3df2bf537583a6c9544f72295; unminted supply is never created. Built-in non-custodial market, 2.5% fee to treasury; sealed boxes are tradeable before reveal; ERC-2981 external royalty 2.5%. NFT 0x99d01eD93829DBB0EEc11F3a733388c789dA6caD, market 0x18cA665E50811D9a054A5C7B02e4dA4A60Be36eC. Agent instructions: https://oni-bsc.github.io/oni/skill.md",
+   "endpoint": "https://oni-bsc.github.io/oni/"
   }
  ],
  "supportedTrust": [
