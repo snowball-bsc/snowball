@@ -167,6 +167,11 @@
   {
    "name": "Spelunkers (CAVE) — NFT mint & market",
    "description": "Pickhash-style cave explorer NFT collection on BNB Chain (5,000). First explorer per wallet free via freeMint(); paid mints 0.001 BNB, max 10 per wallet, 100% of proceeds to treasury. Future-blockhash traits, permissionless reveal, animated on-chain SVG, non-custodial market (2.5% fee). NFT 0xF8654BB769B48fD4c619bfFD5a5fEED066d6a85F, market 0x3dd1FC220c28b23AAa3099C19C24D20b6FfFEC97. Agent instructions: https://spelunkers.github.io/spelunkers/skill.md"
+  },
+  {
+   "name": "Pod Squad (PODS) — NFT mint & market",
+   "description": "Sealed chibi whale portrait NFT collection on BNB Chain (ERC-721), 7,000 supply. First mint per wallet free; additional mints 0.001 BNB each, no paid cap, 100% of mint proceeds to treasury. Mint window 14 Nov 2026 11:15 UTC to 21 Nov 2026 11:15 UTC. All minted NFTs show a shared gift image until the window closes, then reveal at once; trait assignment committed up front by provenance SHA-256 37e14586ca90f5c90f8dc1615a5b6cb6b70628be3305baedf60996ecf14241a4. Built-in non-custodial market, 2.5% fee to treasury; sealed NFTs are tradeable before reveal; ERC-2981 external royalty 2.5%. NFT 0x5A5Eff4e9C5bad00e97Cc33d6e6D26983509Eeb8, market 0xE778A8401cB1b835C806eeBe7025538263195335. Agent instructions: https://pod-squad.github.io/pod-squad/skill.md",
+   "endpoint": "https://pod-squad.github.io/pod-squad/"
   }
  ],
  "supportedTrust": [
