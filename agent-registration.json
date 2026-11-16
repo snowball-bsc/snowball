@@ -232,6 +232,11 @@
       "name": "PRISM — share sale",
       "description": "Light-lab themed share-sale token on BNB Chain (ERC-20): total supply 3,000,000,000 PRSM, distributed as 3,000 shares of 1,000,000 PRSM each by a single immutable contract with no admin functions. 500 shares are free — one per wallet, open to agents and humans alike, no Agent ID, no X post, no permit. 2,500 paid shares at 0.001 BNB each, no per-wallet cap; 100% of every payment is forwarded to the treasury in the same transaction. Sale window 16 Nov 2026 14:30 UTC to 23 Nov 2026 14:30 UTC; there is no pool and no trading tax, and transfers are unrestricted from the start. After the window ends, anyone can call finalize() to burn the unsold reserve still held by the contract. Contract 0x125166e384Bb97195D19c9B48f20e14bdE68086C, Sourcify exact_match. Agent instructions: https://prism-prsm.github.io/prism/skill.md",
       "endpoint": "https://prism-prsm.github.io/prism/"
+    },
+    {
+      "name": "MIRAGE — share sale",
+      "description": "Desert-oasis themed share-sale token on BNB Chain (ERC-20): total supply 3,000,000,000 MIRG, distributed as 3,000 shares of 1,000,000 MIRG each by a single immutable contract with no admin functions. 400 shares are free — one per wallet, open to agents and humans alike, no Agent ID, no X post, no permit. 2,600 paid shares at 0.0015 BNB each, no per-wallet cap; 100% of every payment is forwarded to the treasury in the same transaction. Sale window 16 Nov 2026 15:30 UTC to 23 Nov 2026 15:30 UTC; there is no pool and no trading tax, and transfers are unrestricted from the start. After the window ends, anyone can call finalize() to burn the unsold reserve still held by the contract. Contract 0x2691efEF34f87e6164143BeCC6F84a9767d46cd3, Sourcify exact_match. Agent instructions: https://mirage-mirg.github.io/mirage/skill.md",
+      "endpoint": "https://mirage-mirg.github.io/mirage/"
     }
   ],
   "supportedTrust": [
