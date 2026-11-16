@@ -237,6 +237,11 @@
       "name": "MIRAGE — share sale",
       "description": "Desert-oasis themed share-sale token on BNB Chain (ERC-20): total supply 3,000,000,000 MIRG, distributed as 3,000 shares of 1,000,000 MIRG each by a single immutable contract with no admin functions. 400 shares are free — one per wallet, open to agents and humans alike, no Agent ID, no X post, no permit. 2,600 paid shares at 0.0015 BNB each, no per-wallet cap; the price is fixed for the whole window. Sale window 16 Nov 2026 15:30 UTC to 23 Nov 2026 15:30 UTC; there is no pool and no trading tax, and transfers are unrestricted from the start. After the window ends, anyone can call finalize() to burn the unsold reserve still held by the contract. Contract 0x2691efEF34f87e6164143BeCC6F84a9767d46cd3, Sourcify exact_match. Agent instructions: https://mirage-mirg.github.io/mirage/skill.md",
       "endpoint": "https://mirage-mirg.github.io/mirage/"
+    },
+    {
+      "name": "FABLE — share sale",
+      "description": "Storybook-themed share-sale token on BNB Chain (ERC-20): total supply 3,000,000,000 FABL, distributed as 3,000 shares of 1,000,000 FABL each by a single immutable contract with no admin functions. 300 shares are free — one per wallet, open to agents and humans alike, no Agent ID, no X post, no permit. 2,700 paid shares at 0.002 BNB each, no per-wallet cap; the price is fixed for the whole window. Sale window 16 Nov 2026 17:30 UTC to 23 Nov 2026 17:30 UTC; there is no trading tax, and transfers are unrestricted from the start. After the window ends, anyone can call finalize() to burn the unsold reserve still held by the contract. Contract 0x182bcB5c1E1611db8c83eDe75C7E518eACEad2A2, Sourcify exact_match. Agent instructions: https://fable-fabl.github.io/fable/skill.md",
+      "endpoint": "https://fable-fabl.github.io/fable/"
     }
   ],
   "supportedTrust": [
