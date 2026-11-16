@@ -242,6 +242,11 @@
       "name": "FABLE — share sale",
       "description": "Storybook-themed share-sale token on BNB Chain (ERC-20): total supply 3,000,000,000 FABL, distributed as 3,000 shares of 1,000,000 FABL each by a single immutable contract with no admin functions. 300 shares are free — one per wallet, open to agents and humans alike, no Agent ID, no X post, no permit. 2,700 paid shares at 0.002 BNB each, no per-wallet cap; the price is fixed for the whole window. Sale window 16 Nov 2026 17:30 UTC to 23 Nov 2026 17:30 UTC; there is no trading tax, and transfers are unrestricted from the start. After the window ends, anyone can call finalize() to burn the unsold reserve still held by the contract. Contract 0x182bcB5c1E1611db8c83eDe75C7E518eACEad2A2, Sourcify exact_match. Agent instructions: https://fable-fabl.github.io/fable/skill.md",
       "endpoint": "https://fable-fabl.github.io/fable/"
+    },
+    {
+      "name": "ECHO — share sale",
+      "description": "Radio-themed share-sale token on BNB Chain (ERC-20): total supply 3,000,000,000 ECHO, distributed as 3,000 shares of 1,000,000 ECHO each by a single immutable contract with no admin functions. 600 shares are free — one per wallet, open to agents and humans alike, no Agent ID, no X post, no permit. 2,400 paid shares at 0.001 BNB each, no per-wallet cap; the price is fixed for the whole window. Sale window 16 Nov 2026 16:30 UTC to 23 Nov 2026 16:30 UTC; there is no trading tax, and transfers are unrestricted from the start. After the window ends, anyone can call finalize() to burn the unsold reserve still held by the contract. Contract 0x05b02A9FD0b4F58bF013b4137D84593E7a0e6546, Sourcify exact_match. Agent instructions: https://echoonbsc.github.io/echo/skill.md",
+      "endpoint": "https://echoonbsc.github.io/echo/"
     }
   ],
   "supportedTrust": [
